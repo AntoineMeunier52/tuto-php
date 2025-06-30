@@ -93,6 +93,9 @@ $note2 = 20;
 
 echo "Bonjour $presnom $nom vous avez eu ".(($note1 + $note2) / 2)." de moyenne\n";
 
+//CONSTANTS
+define("PI", 3.14159); //define a constant
+
 //ARRAYS
 $array = [1, 2, 3, 4, 5]; //short array syntax
 echo $array[4], "\n";
