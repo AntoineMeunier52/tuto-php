@@ -122,3 +122,6 @@ if ($a_int > 0) {
 } else {
 	echo "a_int is equal to 0\n";
 }
+
+
+//>= and <= and === check the type

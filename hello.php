@@ -13,3 +13,16 @@ if (is_palindrom($str)) {
 } else {
     echo "$str is not a palindrom\n";
 }
+
+function slot() {
+    while (true) {
+        $opening = readline('Enter the opening hour: ');
+        if (is_string($opening) || ( $opening >= 0 && $opening <= 23)) {
+            echo "Please enter a number between 0 and 23\n";
+            continue;
+        }
+        break;
+    }
+}
+
+slot();
